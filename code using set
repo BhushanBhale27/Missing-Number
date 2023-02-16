@@ -1,0 +1,7 @@
+let arr = [9,6,4,2,3,5,7,1]
+let n = arr.length
+let set1 = new Set(arr);
+for(let i=1;i<=n;i++){
+  if(!set1.has(i))
+    console.log(i);
+}
